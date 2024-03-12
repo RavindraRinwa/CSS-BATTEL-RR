@@ -1,0 +1,157 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    min-height: 150vh;
+    width:100%;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background:white;
+}
+.main{
+      position:absolute;
+      top:300px;
+      height:1250px;
+      width:1250px;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      border:solid black 1px;
+      background: rgb(178, 124, 178);
+}
+
+.container{
+    position: relative;
+    height:900px;
+    width:1050px;
+    border:solid black 2px;
+    background:white;
+    border-radius:20px;
+    box-shadow:black 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    position:absolute;
+    height:250px;
+    width:250px;
+    top:-150px;
+    left:390px;
+    border:solid black 1px;
+    border-radius:300px;
+    background-color:white;
+}
+.circle img{
+    height:250px;
+    width:250px;
+    border-radius:200px;
+    background: white;
+}
+
+.bean-div{
+    position:absolute;
+    top:110px;
+}
+.bean-div  h1{
+    font-size:1.5vw;
+    font-weight:200;
+    color:rgb(161, 161, 228);
+}
+
+.following-number{
+    position:absolute;
+    top:230px;
+    height:150px;
+    width:800px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.item1{
+    height:200px;
+    width:200px;
+}
+.item2{
+    height:200px;
+    width:200px;
+}
+.item3{
+    height:200px;
+    width:200px;
+}
+.item4{
+    height:200px;
+    width:200px;
+}
+
+.following-number p{
+    font-size: 40px;
+    color:grey;
+}
+
+.button-div{
+    position:absolute;
+    top:650px;
+    width:800px;
+    height:150px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.message-div button{
+    height:85px;
+    width: 250px;
+    background:rgba(69, 144, 201, 0.765);
+    border-radius: 100px;
+    font-size:30px;
+    color:white;
+}
+
+
+.follow-div button{
+    height:85px;
+    width: 250px;
+    background:gray;
+    border-radius: 100px;
+    font-size:30px;
+    color:white;
+}
+
+.following{
+    position:absolute;
+    top:560px;
+    height:150px;
+    width:700px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.itemi1 img{
+    height:70px;
+    width:70px;
+}
+.itemi2 img{
+    height:70px;
+    width:70px;
+}
+.itemi3 img{
+    height:70px;
+    width:70px;
+}
+.itemi4 img{
+    height:70px;
+    width:70px;
+}
+.itemi5 img{
+    height:70px;
+    width:70px;
+}

@@ -77,11 +77,54 @@ body{
     align-items: center;
 }
 
+.just{
+    position: absolute;
+    top:250px;
+}
 
 .just h1{
-    font-size:20px;
+    font-size:70px;
+    font-weight:bold;
 }
 
 .just p{
-    font-size:20px;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+}
+
+.inform{
+    position:absolute;
+    top: 400px;
+    height:800px;
+    width: 800px;;
+    border:solid 2px yellow;
+    display: gird;
+    grid-template-areas:
+    "item1" "item2"
+    "item3" "item4"
+    "item5    item5"
+    "item5    item5";
+}
+
+.item1{
+    grid-area: item1;
+}
+.item2{
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+.item4{
+    grid-area: item4;
+}
+.item5{
+    grid-area: item5;
+}
+
+.item{
+    height:100px;
+    width:350px;
+    border:solid yellow 3px;
 }
